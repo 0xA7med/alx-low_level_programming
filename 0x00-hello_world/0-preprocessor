@@ -1,9 +1,2 @@
 #!/bin/bash
-
-CFILE=$1
-OUTPUT_FILE="c"
-
-echo "# 1 \"$CFILE\"" > $OUTPUT_FILE
-gcc -E -P -C -x c $CFILE >> $OUTPUT_FILE
-
-
+gcc -E "$CFILE" -o c
