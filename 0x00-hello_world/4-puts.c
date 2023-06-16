@@ -1,2 +1,2 @@
 #!/bin/bash
-int main(void) { puts("Programming is like building a multilingual puzzle\n"); return 0; }
+gcc -Wall -Werror -Wextra -pedantic -std=c99 4-puts.c -o output
