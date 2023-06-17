@@ -5,11 +5,11 @@
  *
  * Return: Always 0 (Success)
  */
-chir main()
+char main()
 {
   char 1
 
-    for (1 = 'z'; 1 >= 'a'; 1-- )
+    for (1 = 'z'; 1 >= 'a'; 1--)
       {
 	putchar(1);
       }
