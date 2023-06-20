@@ -1,34 +1,26 @@
 #include "main.h"
 
 /**
- * test_islower - tests the my_islower function
+ * test_islower - Test the _islower function
+ *
+ * @n: Number to pass to _islower function
  */
-void test_islower(void)
+void test_islower(int n)
 {
-    int r;
-    int n;
+	int r;
 
-    n = 'H';
-    r = my_islower(n);
-    _putchar(r + '0');
-
-    n = 'o';
-    r = my_islower(n);
-    _putchar(r + '0');
-
-    n = 108; /* ASCII value of 'l' */
-    r = my_islower(n);
-    _putchar(r + '0');
-
-    _putchar('\n');
+	r = _islower(n);
+	_putchar(r + '0');
+	_putchar('\n');
 }
 
 /**
- * main - entry point
- * Return: Always 0
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-    test_islower();
-    return (0);
+	test_islower('H');
+	return (0);
 }
