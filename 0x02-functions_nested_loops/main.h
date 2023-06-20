@@ -2,6 +2,10 @@
 #define MAIN_H
 
 int _putchar(char c);
+void print_times_table(int n);
+int _putchar(char c);
+int print_last_digit(int n);
+int _putchar(char c);
 int print_last_digit(int n);
 int _putchar(char c);
 void jack_bauer(void);
