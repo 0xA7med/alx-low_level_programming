@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * main - Entry point of the program
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
-	print_alphabet();
-	return (0);
+    print_alphabet();
+    return 0;
 }
-
